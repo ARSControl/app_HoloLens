@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81dae1d46879b444aa9847f7961649f, type: 3}
+  m_Name: DefaultMixedRealitySceneSystemProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 0
+  useManagerScene: 1
+  managerScene:
+    Name: Home
+    Path: Assets/QRSpacePin/Scenes/Home.unity
+    Included: 1
+    BuildIndex: 0
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: c31c9cb28856cc3419d72a30de668784, type: 3}
+  useLightingScene: 0
+  defaultLightingSceneIndex: 0
+  lightingScenes:
+  - Name: DefaultLightingScene
+    Path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 7e54e36c44f826c438c95da79f8de638, type: 3}
+  contentScenes:
+  - Name: Cubi_base
+    Path: Assets/QRSpacePin/Scenes/Cubi_base.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: e9420870519c2af4cb7792d4cafd8822, type: 3}
+  - Name: Cubi_opachi
+    Path: Assets/QRSpacePin/Scenes/Cubi_opachi.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 1065ac9d39f3ec4438439020ef67ed15, type: 3}
+  - Name: Cubi_wisconsin
+    Path: Assets/QRSpacePin/Scenes/Cubi_wisconsin.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: ae57116e7ed7886489a4eadd6948aba7, type: 3}
+  - Name: Cubi_wisconsin test
+    Path: Assets/QRSpacePin/Scenes/Cubi_wisconsin test.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: d008dc6dfe6ac52458a3e1282d1b640f, type: 3}
+  - Name: NOTTE RICERCA
+    Path: Assets/QRSpacePin/Scenes/NOTTE RICERCA.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: c34028c43d17bf34c9089584fc3d34ed, type: 3}
+  - Name: PROVA1
+    Path: Assets/QRSpacePin/Scenes/PROVA1.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: b0475d55ca493614786c0ff36e6a51ab, type: 3}
+  - Name: PROVA_CasaMia
+    Path: Assets/QRSpacePin/Scenes/PROVA_CasaMia.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 650cc1d65a5fd704c9f58d8218f0e057, type: 3}
+  - Name: PROVA_CasaValeria
+    Path: Assets/QRSpacePin/Scenes/PROVA_CasaValeria.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 690ccfeafd1790c4182e10c1fcf68d5e, type: 3}
+  - Name: PROVA_CasaZia
+    Path: Assets/QRSpacePin/Scenes/PROVA_CasaZia.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 6018f053147230644bf64a100c306259, type: 3}
+  - Name: PROVA_originale
+    Path: Assets/QRSpacePin/Scenes/PROVA_originale.unity
+    Included: 1
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 61598badf18ade3429c3bfaa88874cc4, type: 3}
+  - Name: 00Cubi_base
+    Path: Assets/QRSpacePin/Scenes/00Cubi_base.unity
+    Included: 1
+    BuildIndex: 1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 47470e136c9104e4abe2ea7b77b7d8ce, type: 3}
+  - Name: 00Cubi_opachi
+    Path: Assets/QRSpacePin/Scenes/00Cubi_opachi.unity
+    Included: 1
+    BuildIndex: 2
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: b14494a3960672b4c854ee9832dc15a5, type: 3}
+  - Name: 00Cubi_wisconsin test
+    Path: Assets/QRSpacePin/Scenes/00Cubi_wisconsin test.unity
+    Included: 1
+    BuildIndex: 3
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 53d0c147129b8c74da47dbbc3474bd3e, type: 3}
+  permittedLightingSceneComponentTypes:
+  - reference: UnityEngine.Transform, UnityEngine.CoreModule
+  - reference: UnityEngine.GameObject, UnityEngine.CoreModule
+  - reference: UnityEngine.Light, UnityEngine.CoreModule
+  - reference: UnityEngine.ReflectionProbe, UnityEngine.CoreModule
+  - reference: UnityEngine.LightProbeGroup, UnityEngine.CoreModule
+  - reference: UnityEngine.LightProbeProxyVolume, UnityEngine.CoreModule
+  contentTags: []
+  cachedLightingSettings:
+  - SceneName: DefaultLightingScene
+    RenderSettings:
+      Fog: 0
+      FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      FogMode: 2
+      FogDensity: 0.01
+      LinearFogStart: 0
+      LinearFogEnd: 300
+      AmbientSkyColor: {r: 0.08962262, g: 0.3930819, b: 1, a: 1}
+      AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+      AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+      AmbientLight: {r: 0, g: 0, b: 0, a: 0}
+      AmbientIntensity: 1
+      AmbientMode: 1
+      SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+      SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+      DefaultReflectionMode: 0
+      DefaultReflectionResolution: 128
+      ReflectionBounces: 1
+      ReflectionIntensity: 1
+      CustomReflection: {fileID: 0}
+      UseRadianceAmbientProbe: 0
+    LightingSettings:
+      BounceScale: 1
+      IndirectOutputScale: 1
+      AlbedoBoost: 1
+      EnvironmentLightingMode: 0
+      EnableBakedLightmaps: 0
+      EnabledRealtimeLightmaps: 0
+    SunlightSettings:
+      UseSunlight: 1
+      Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+      Intensity: 1
+      XRotation: 50
+      YRotation: 330
+      ZRotation: 0
+  editorManageBuildSettings: 1
+  editorEnforceSceneOrder: 1
+  editorManageLoadedScenes: 1
+  editorEnforceLightingSceneTypes: 1
+  editorLightingCacheOutOfDate: 1
