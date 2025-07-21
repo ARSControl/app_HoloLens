@@ -2,6 +2,8 @@
 
 This repository contains an application developed with Unity and thought to be deployed to Microsoft HoloLens 2. It consists of multiple games that aim to stimulate cognitive functioning and visuo-spatial skills for elderly individuals. 
 
+<sub>This work was supported by the project '"Cognifit Harmony", funded by Horizon Europe program as Financial Support for Third Parties (FSTP) of the project "UTTER" (GA 101070631), and by the "Lively Ageing" project, funded by the Italian Ministry of Health.</sub>
+
 ## Prerequisites
 - Download **Unity 2020.3.46f1**
 - Download **Visual Studio 2022**
